@@ -13,6 +13,7 @@
 		AF7110FF237E5D2500806457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7110FE237E5D2500806457 /* Assets.xcassets */; };
 		AF711102237E5D2500806457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF711101237E5D2500806457 /* Preview Assets.xcassets */; };
 		AF711105237E5D2500806457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF711103237E5D2500806457 /* LaunchScreen.storyboard */; };
+		AF71110D237E62B200806457 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71110C237E62B200806457 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF711101237E5D2500806457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF711104237E5D2500806457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF711106237E5D2500806457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF71110C237E62B200806457 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AF7110F8237E5D2300806457 /* AppDelegate.swift */,
 				AF7110FA237E5D2300806457 /* SceneDelegate.swift */,
 				AF7110FC237E5D2300806457 /* ContentView.swift */,
+				AF71110C237E62B200806457 /* GradientView.swift */,
 				AF7110FE237E5D2500806457 /* Assets.xcassets */,
 				AF711103237E5D2500806457 /* LaunchScreen.storyboard */,
 				AF711106237E5D2500806457 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				AF7110F9237E5D2300806457 /* AppDelegate.swift in Sources */,
 				AF7110FB237E5D2300806457 /* SceneDelegate.swift in Sources */,
+				AF71110D237E62B200806457 /* GradientView.swift in Sources */,
 				AF7110FD237E5D2300806457 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
