@@ -25,7 +25,7 @@ struct ContentView: View {
                     Spacer()
                 }
             }
-            .navigationBarTitle(Text("Home"), displayMode: .inline)
+            .navigationBarTitle(Text("Home"))
         }
     }
 }
