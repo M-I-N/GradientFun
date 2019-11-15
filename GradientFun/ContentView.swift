@@ -9,17 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let gradients = GradientView.ViewType.allCases
-    @State private var selectedSegment = 0
+    @State private var selectedGradient = GradientView.ViewType.linear
     var body: some View {
         NavigationView {
             ZStack {
-                GradientView(gradientType: gradients[selectedSegment])
+                GradientView(gradientType: selectedGradient)
                     .edgesIgnoringSafeArea(.all)
                 VStack {
-                    Picker(selection: $selectedSegment, label: Text("Pick Your Gradient")) {
-                        ForEach(0 ..< gradients.count) {
-                            Text(self.gradients[$0].rawValue).tag($0)
+                    Picker(selection: $selectedGradient, label: Text("Pick Your Gradient")) {
+                        ForEach(GradientView.ViewType.allCases) { gradient in
+                            Text(gradient.rawValue).tag(gradient)
                         }
                     }.pickerStyle(SegmentedPickerStyle())
                         .padding(.all)
